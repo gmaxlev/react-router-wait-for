@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# React Router with waitFor
+
+This is an experiment with React Router v6. It allows you to describe routes with the waitFor option, which blocks calling child loaders until their parent waitFor promise has been resolved. If thewaitFor promise throws an error,the child loaders and their lazy components won't be loaded.
+
+> ### Stackblitz: https://stackblitz.com/edit/react-ts-hdnfwd
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
