@@ -1,0 +1,36 @@
+body * {
+  text-decoration: none;
+}
+
+.header {
+  text-align: center;
+}
+
+.about {
+  text-align: center;
+}
+
+.route {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.link {
+  font-size: 1rem;
+  display: inline-flex;
+  background-color: blue;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 2px;
+}
+
+.link::before {
+  content: "Link: ";
+}
+
+.page {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+}
