@@ -84,12 +84,11 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
         This is an experiment with React Router v6. It allows you to describe
         routes with the <b>waitFor</b> option, which blocks calling child
         loaders until their parent <b>waitFor</b> promise has been resolved. If
-        the
-        <b>waitFor</b> promise throws an error,
+        the <b>waitFor</b> promise throws a redirect,{" "}
         <b>the child loaders and their lazy components won't be loaded.</b>
       </p>
       <p>
-        See <i>console</i> to track router execution
+        Check the <i>console</i> to track the router's execution
       </p>
     </div>
 
